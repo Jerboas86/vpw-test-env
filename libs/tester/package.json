@@ -1,0 +1,11 @@
+{
+  "name": "@astrone/tester",
+  "version": "0.0.1",
+  "author": "jerboas86",
+  "description": "random wasm lib",
+  "main": "./package",
+  "scripts": {
+    "build": "cargo build --target wasm32-unknown-unknown --release",
+    "package": "wasm-bindgen --target bundler --typescript --out-dir wasm_package --out-name index ./target/wasm32-unknown-unknown/release/tester.wasm"
+  }
+}

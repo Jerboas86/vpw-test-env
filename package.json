@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Testing environement for vite-plugin-wasm",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "svelte:dev": "pnpm --filter=wasm-svelte dev",
+    "tester:build": "pnpm --filter=tester build",
+    "tester:package": "pnpm --filter=tester package"
   },
   "author": "jerboas86",
   "license": "MIT"
