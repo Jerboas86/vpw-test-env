@@ -9,6 +9,7 @@ importers:
     specifiers:
       '@sveltejs/vite-plugin-svelte': ^2.0.0
       '@tsconfig/svelte': ^3.0.0
+      '@vpwtest/tester': workspace:^0.0.1
       svelte: ^3.54.0
       svelte-check: ^2.10.0
       tslib: ^2.4.1
@@ -16,6 +17,8 @@ importers:
       vite: ^4.0.0
       vite-plugin-top-level-await: ^1.2.2
       vite-plugin-wasm: ^3.1.0
+    dependencies:
+      '@vpwtest/tester': link:../../libs/tester
     devDependencies:
       '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.0+vite@4.0.3
       '@tsconfig/svelte': 3.0.0

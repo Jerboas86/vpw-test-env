@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { add } from "./wasm_package";
+  import { add } from "@vpwtest/tester";
   const a = 5;
   const b = 12;
 </script>

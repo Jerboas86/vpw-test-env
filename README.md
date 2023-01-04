@@ -7,6 +7,7 @@ Testing vite-plugin-wasm with different frameworks:
 
 And in different scopes:
 
-- window scope
-- worker scope
-- worklet scope
+- ✅ Window scope
+- ✅ Worker scope
+- ❗ Nodejs scope (vitest)
+- ❗ Worklet scope (audioworklet)
