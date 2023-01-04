@@ -7,7 +7,16 @@ Testing vite-plugin-wasm with different frameworks:
 
 And in different scopes:
 
-- ✅ Window scope
-- ✅ Worker scope
-- ❗ Nodejs scope (vitest)
-- ❗ Worklet scope (audioworklet)
+- Window scope
+- Worker scope
+- Worklet scope (audioworklet)
+- Nodejs scope (vitest)
+
+## Results
+
+|         | Svelte | Sveltekit |
+| ------- | ------ | --------- |
+| Window  | ✅     | ❗        |
+| Worker  | ✅     | ❗        |
+| Worklet | ❗     | ❗        |
+| Vitest  | ❗     | ❗        |
