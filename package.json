@@ -5,7 +5,11 @@
   "scripts": {
     "svelte:dev": "pnpm --filter=wasm-svelte dev",
     "svelte:test": "pnpm --filter=wasm-svelte test",
-    "svelte:coverage": "pnpm --filter=wasm-svelte test",
+    "svelte:coverage": "pnpm --filter=wasm-svelte coverage",
+    "kit:dev": "pnpm --filter=wasm-sveltekit dev",
+    "kit:build": "pnpm --filter=wasm-sveltekit build",
+    "kit:test": "pnpm --filter=wasm-sveltekit test",
+    "kit:coverage": "pnpm --filter=wasm-sveltekit coverage",
     "tester:build": "pnpm --filter=tester build",
     "tester:package": "pnpm --filter=tester package"
   },

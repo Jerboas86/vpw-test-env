@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main>
+	<a href="/window">Window scope</a>
+	<a href="/worker">Worker scope</a>
+	<a href="/worklet">Worklet scope</a>
+</main>
