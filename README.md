@@ -2,8 +2,8 @@
 
 Testing vite-plugin-wasm with different frameworks:
 
-- svelte
-- sveltekit
+- svelte (CSR)
+- sveltekit (SSR)
 
 And in different scopes:
 
