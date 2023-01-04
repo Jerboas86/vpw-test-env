@@ -9,3 +9,10 @@
     worker.postMessage({});
   }}>Open the console</button
 >
+
+<style>
+  button {
+    display: block;
+    margin: auto;
+  }
+</style>

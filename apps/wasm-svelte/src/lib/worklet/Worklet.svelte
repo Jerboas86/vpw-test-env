@@ -15,3 +15,10 @@
 </script>
 
 <button on:click={start}>Start</button>
+
+<style>
+  button {
+    display: block;
+    margin: auto;
+  }
+</style>
