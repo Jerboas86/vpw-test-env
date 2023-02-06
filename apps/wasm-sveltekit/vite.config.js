@@ -7,6 +7,13 @@ const config = {
 	plugins: [sveltekit(), wasm(), topLevelAwait()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
+	},
+	worker: {
+		format: "es",
+		plugins: [
+			wasm(),
+			topLevelAwait()
+		]
 	}
 };
 
