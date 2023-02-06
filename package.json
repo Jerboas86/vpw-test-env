@@ -4,6 +4,7 @@
   "description": "Testing environement for vite-plugin-wasm",
   "scripts": {
     "svelte:dev": "pnpm --filter=wasm-svelte dev",
+    "svelte:build": "pnpm --filter=wasm-svelte build",
     "svelte:test": "pnpm --filter=wasm-svelte test",
     "svelte:coverage": "pnpm --filter=wasm-svelte coverage",
     "kit:dev": "pnpm --filter=wasm-sveltekit dev",
