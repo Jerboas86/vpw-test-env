@@ -5,10 +5,12 @@
   "scripts": {
     "svelte:dev": "pnpm --filter=wasm-svelte dev",
     "svelte:build": "pnpm --filter=wasm-svelte build",
+    "svelte:preview": "pnpm --filter=wasm-svelte preview",
     "svelte:test": "pnpm --filter=wasm-svelte test",
     "svelte:coverage": "pnpm --filter=wasm-svelte coverage",
     "kit:dev": "pnpm --filter=wasm-sveltekit dev",
     "kit:build": "pnpm --filter=wasm-sveltekit build",
+    "kit:preview": "pnpm --filter=wasm-sveltekit preview",
     "kit:test": "pnpm --filter=wasm-sveltekit test",
     "kit:coverage": "pnpm --filter=wasm-sveltekit coverage",
     "tester:build": "pnpm --filter=tester build",
