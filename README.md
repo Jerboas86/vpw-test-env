@@ -22,15 +22,15 @@ And with different web browers:
 
 ### Vitest
 
-|         | Svelte | Sveltekit |
-| ------- | ------ | --------- |
-| Vitest  | ✅     | ✅        |
+|        | Svelte | Sveltekit |
+| ------ | ------ | --------- |
+| Vitest | ✅     | ✅        |
 
 ### Chrome
 
 |         | Svelte | Sveltekit |
 | ------- | ------ | --------- |
-| Window  | ✅     | ❗        |
+| Window  | ✅     | ✅        |
 | Worker  | ✅     | ❗        |
 | Worklet | ❗     | ❗        |
 
@@ -38,7 +38,7 @@ And with different web browers:
 
 |         | Svelte | Sveltekit |
 | ------- | ------ | --------- |
-| Window  | ✅     | ❗        |
+| Window  | ✅     | ✅        |
 | Worker  | ❗     | ❗        |
 | Worklet | ❗     | ❗        |
 
