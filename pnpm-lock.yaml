@@ -40,6 +40,7 @@ importers:
       '@sveltejs/kit': ^1.5.0
       '@typescript-eslint/eslint-plugin': ^5.50.0
       '@typescript-eslint/parser': ^5.50.0
+      '@vpwtest/tester': workspace:^0.0.1
       eslint: ^8.33.0
       eslint-config-prettier: ^8.6.0
       eslint-plugin-svelte3: ^4.0.0
@@ -58,6 +59,7 @@ importers:
       '@sveltejs/kit': 1.5.0_svelte@3.55.1+vite@4.1.1
       '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
       '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
+      '@vpwtest/tester': link:../../libs/tester
       eslint: 8.33.0
       eslint-config-prettier: 8.6.0_eslint@8.33.0
       eslint-plugin-svelte3: 4.0.0_4omm2ewoudhgnmf7aocafatnc4
