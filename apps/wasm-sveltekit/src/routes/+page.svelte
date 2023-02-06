@@ -1,5 +1,7 @@
+<script lang="ts">
+	import Window from '../lib/window/Window.svelte';
+</script>
+
 <main>
-	<a href="/window">Window scope</a>
-	<a href="/worker">Worker scope</a>
-	<a href="/worklet">Worklet scope</a>
+	<Window />
 </main>

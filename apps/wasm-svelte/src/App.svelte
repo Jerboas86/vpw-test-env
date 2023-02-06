@@ -4,24 +4,33 @@
   import Worklet from "./lib/worklet/Worklet.svelte";
 
   let path = window.location.pathname;
-
-  console.log("Path: ", path);
 </script>
 
 <main>
-  <a href="/window">Window scope</a><a href="/worker">Worker scope</a><a
-    href="/worklet">Worklet scope</a
-  >
-  {#if path === "/window"}
-    <Window />
-  {:else if path === "/worker"}
-    <Worker />
-  {:else if path === "/worklet"}
-    <Worklet />
-  {/if}
+  <div class="scopes">
+    <a href="/">Window scope</a>
+    <a href="/worker">Worker scope</a>
+    <a href="/worklet">Worklet scope</a>
+  </div>
+  <div class="result">
+    {#if path === "/"}
+      <Window />
+    {:else if path === "/worker"}
+      <Worker />
+    {:else if path === "/worklet"}
+      <Worklet />
+    {/if}
+  </div>
 </main>
 
 <style>
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   a {
     display: inline-block;
     margin: 2rem;
