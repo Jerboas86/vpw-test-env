@@ -20,6 +20,12 @@ And with different web browers:
 
 ## Results
 
+### Vitest
+
+|         | Svelte | Sveltekit |
+| ------- | ------ | --------- |
+| Vitest  | ✅     | ✅        |
+
 ### Chrome
 
 |         | Svelte | Sveltekit |
@@ -27,7 +33,6 @@ And with different web browers:
 | Window  | ✅     | ❗        |
 | Worker  | ✅     | ❗        |
 | Worklet | ❗     | ❗        |
-| Vitest  | ❗     | ❗        |
 
 ### Firefox
 
@@ -36,7 +41,6 @@ And with different web browers:
 | Window  | ✅     | ❗        |
 | Worker  | ❗     | ❗        |
 | Worklet | ❗     | ❗        |
-| Vitest  | ❗     | ❗        |
 
 ### Gnome web
 
@@ -45,4 +49,3 @@ And with different web browers:
 | Window  | ✅     | ❗        |
 | Worker  | ✅     | ❗        |
 | Worklet | ❗     | ❗        |
-| Vitest  | ❗     | ❗        |
