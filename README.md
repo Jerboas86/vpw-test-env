@@ -31,7 +31,7 @@ And with different web browers:
 |         | Svelte | Sveltekit |
 | ------- | ------ | --------- |
 | Window  | ✅     | ✅        |
-| Worker  | ✅     | ❗        |
+| Worker  | ✅     | ✅        |
 | Worklet | ❗     | ❗        |
 
 ### Firefox
