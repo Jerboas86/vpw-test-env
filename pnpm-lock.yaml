@@ -19,11 +19,10 @@ importers:
       vite-plugin-top-level-await: ^1.2.4
       vite-plugin-wasm: ^3.2.1
       vitest: ^0.28.4
-    dependencies:
-      '@vpwtest/tester': link:../../libs/tester
     devDependencies:
       '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1+vite@4.1.1
       '@tsconfig/svelte': 3.0.0
+      '@vpwtest/tester': link:../../libs/tester
       jsdom: 21.1.0
       svelte: 3.55.1
       svelte-check: 3.0.3_svelte@3.55.1

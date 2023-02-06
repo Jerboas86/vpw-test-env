@@ -14,6 +14,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
     "@tsconfig/svelte": "^3.0.0",
+    "@vpwtest/tester": "workspace:^0.0.1",
     "jsdom": "^21.1.0",
     "svelte": "^3.55.1",
     "svelte-check": "^3.0.3",
@@ -23,8 +24,5 @@
     "vite-plugin-top-level-await": "^1.2.4",
     "vite-plugin-wasm": "^3.2.1",
     "vitest": "^0.28.4"
-  },
-  "dependencies": {
-    "@vpwtest/tester": "workspace:^0.0.1"
   }
 }
