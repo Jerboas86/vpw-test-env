@@ -46,6 +46,6 @@ And with different web browers:
 
 |         | Svelte | Sveltekit |
 | ------- | ------ | --------- |
-| Window  | ✅     | ❗        |
-| Worker  | ✅     | ❗        |
+| Window  | ✅     | ✅        |
+| Worker  | ✅     | ✅        |
 | Worklet | ❗     | ❗        |
