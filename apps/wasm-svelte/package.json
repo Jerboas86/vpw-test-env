@@ -12,17 +12,17 @@
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
     "@tsconfig/svelte": "^3.0.0",
     "@vpwtest/tester": "workspace:^0.0.1",
     "jsdom": "^21.1.0",
     "svelte": "^3.55.1",
-    "svelte-check": "^3.0.3",
+    "svelte-check": "^3.0.4",
     "tslib": "^2.5.0",
     "typescript": "^4.9.5",
-    "vite": "^4.1.1",
-    "vite-plugin-top-level-await": "^1.2.4",
+    "vite": "^4.1.4",
+    "vite-plugin-top-level-await": "^1.3.0",
     "vite-plugin-wasm": "^3.2.1",
-    "vitest": "^0.28.4"
+    "vitest": "^0.29.1"
   }
 }
