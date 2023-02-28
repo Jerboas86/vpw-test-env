@@ -11,7 +11,6 @@ export default defineConfig({
     environment: "jsdom",
   },
   worker: {
-    format: "es",
     plugins: [wasm(), topLevelAwait()],
   },
 });
